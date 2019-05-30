@@ -1,10 +1,9 @@
 class Pdfwordcount < Formula
   desc "Count words in a PDF (wrapper around pdftotext and wc)"
   homepage "https://github.com/sbibauw/pdfwordcount"
-  url "https://github.com/sbibauw/pdfwordcount/archive/0.1.tar.gz"
-  sha256 "1c7f1ccc7630b792d1a23a6067c3bf3776114e901d564d561fd077b9aaee7f2d"
+  url "https://github.com/sbibauw/pdfwordcount/archive/0.2.tar.gz"
+  sha256 "3ee1b362080cad04a3a6f898cd881dbd6e12347defb56f6d0d075f453039eb97"
 
-  depends_on "recode"
   depends_on "xpdf"
 
   def install
