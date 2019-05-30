@@ -8,7 +8,7 @@ class Pdfwordcount < Formula
   depends_on "xpdf"
 
   def install
-    bin.install_symlink "pdfwordcount"
+    bin.install "pdfwordcount"
   end
 
   test do
