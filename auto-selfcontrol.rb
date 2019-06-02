@@ -1,14 +1,14 @@
 class AutoSelfcontrol < Formula
   desc "Small utility to schedule start and stop times of SelfControl"
   homepage "https://github.com/andreasgrill/auto-selfcontrol"
+  url "https://github.com/sbibauw/auto-selfcontrol/archive/v0.4.tar.gz"
+  sha256 "4f00387e9cb19e02c7ae87c4b031c2e5eb0daf132fe105bb913fbc55d2ecbaeb"
   head "https://github.com/sbibauw/auto-selfcontrol.git"
 
   def install
     bin.install "auto-selfcontrol"
     bin.install "auto-selfcontrol.py"
     (etc/"auto-selfcontrol").install "config.json"
-    bin.install_symlink "auto-selfcontrol"
-    bin.install_symlink "auto-selfcontrol.py"
   end
 
   def caveats
