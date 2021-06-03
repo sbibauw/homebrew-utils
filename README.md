@@ -4,7 +4,9 @@ Homebrew tap for personal utilities and self-provided Formulas
 
 This tap/repo provides [Homebrew](https://brew.sh) Formulas for the following tools/applications:
 
-- [auto-selfcontrol](https://github.com/sbibauw/auto-selfcontrol) (personal fork from [auto-selfcontrol](https://github.com/andreasgrill/auto-selfcontrol))
+- [RsyncUI](https://github.com/rsyncOSX/RsyncUI)
+- [WordCounter](https://wordcounterapp.com/)
+- (deprecated) [auto-selfcontrol](https://github.com/sbibauw/auto-selfcontrol) (personal fork from  [auto-selfcontrol](https://github.com/andreasgrill/auto-selfcontrol)) → Deprecated: use `brew tap andreasgrill/utils` instead
 
 # Usage
 
